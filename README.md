@@ -15,3 +15,8 @@ This project uses Next.js for SSR and Chrome's extension APIs for session manage
 - **Session Management**: Save your tabs in groups, close all tabs in a session, or restore them anytime.
 - **Tab Search & Filters**: Quickly find tabs from saved sessions or active ones.
 - **Custom Categories**: Label sessions based on user-defined tags for better organization.
+
+### Technology Stack
+- **Next.js** for the frontend
+- **Chrome Extensions API** for session management
+- **Chrome Storage API** for persistent session data
