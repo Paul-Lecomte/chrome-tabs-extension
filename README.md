@@ -54,3 +54,19 @@ Tested all features and ensured full functionality. Ready for deployment!
 
 ## Final Touches
 Added final documentation, cleaned up code, and performed a final round of optimizations to ensure smooth user experience.
+
+## Screenshots
+Here are some screenshots of the extension in action:
+
+- **Main UI**: Shows the list of saved sessions and tabs.
+- **Search & Filter**: A quick search bar to find sessions by title or category.
+- **Notes**: A feature to add notes to each saved tab.
+
+[Insert Screenshots Here]
+
+## Example Usage
+1. Open several tabs for work or research.
+2. Save the session under a custom label (e.g., "Work").
+3. Access the saved session later by opening it with one click.
+4. Add notes or reminders to the session as needed.
+
