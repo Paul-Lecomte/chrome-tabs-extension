@@ -15,6 +15,7 @@ This project uses Next.js for SSR and Chrome's extension APIs for session manage
 - **Session Management**: Save your tabs in groups, close all tabs in a session, or restore them anytime.
 - **Tab Search & Filters**: Quickly find tabs from saved sessions or active ones by searching or filtering by title, URL, or category.
 - **Custom Categories**: Label sessions based on user-defined tags for better organization.
+- **Session Sharing**: Share tab groups with others for collaborative browsing or research.
 
 ### Technology Stack
 - **Next.js** for the frontend
@@ -26,3 +27,6 @@ The core feature of the extension allows you to group and manage browser tabs ba
 
 ## Search & Filter Tabs
 Easily find saved sessions or active tabs by searching by title, URL, or filtering by category.
+
+## Session Sharing
+Collaboratively share saved tab groups with others for better productivity and research.
