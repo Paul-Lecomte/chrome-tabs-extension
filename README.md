@@ -7,6 +7,7 @@ A Google Chrome extension built with Next.js to enhance productivity by organizi
 - Open saved sessions with one click
 - Search and filter tabs
 - Share sessions with others
+- Sync across devices
 
 ## Getting Started
 This project uses Next.js for SSR and Chrome's extension APIs for session management.
@@ -16,6 +17,7 @@ This project uses Next.js for SSR and Chrome's extension APIs for session manage
 - **Tab Search & Filters**: Quickly find tabs from saved sessions or active ones by searching or filtering by title, URL, or category.
 - **Custom Categories**: Label sessions based on user-defined tags for better organization.
 - **Session Sharing**: Share tab groups with others for collaborative browsing or research.
+- **Sync Across Devices**: Sync saved sessions and tabs across devices for seamless productivity.
 
 ### Technology Stack
 - **Next.js** for the frontend
@@ -30,3 +32,6 @@ Easily find saved sessions or active tabs by searching by title, URL, or filteri
 
 ## Session Sharing
 Collaboratively share saved tab groups with others for better productivity and research.
+
+## Sync Across Devices
+Sync saved sessions and tabs across devices to ensure you can access them anywhere.
