@@ -45,3 +45,6 @@ Users can add notes or reminders to each tab in their saved session to enhance p
 
 ## Session Cleanup
 Implemented the feature to close all tabs in a saved session at once to better manage your browser's tabs and resources.
+
+## Bug Fixes & Optimizations
+Fixed minor bugs related to session saving and tab syncing. Improved code performance and streamlined session data handling.
