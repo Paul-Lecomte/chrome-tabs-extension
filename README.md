@@ -9,6 +9,7 @@ A Google Chrome extension built with Next.js to enhance productivity by organizi
 - Share sessions with others
 - Sync across devices
 - Add notes and reminders to tabs
+- Close all tabs in a session
 
 ## Getting Started
 This project uses Next.js for SSR and Chrome's extension APIs for session management.
@@ -20,6 +21,7 @@ This project uses Next.js for SSR and Chrome's extension APIs for session manage
 - **Session Sharing**: Share tab groups with others for collaborative browsing or research.
 - **Sync Across Devices**: Sync saved sessions and tabs across devices for seamless productivity.
 - **Notes & Reminders**: Add notes or reminders to saved tabs for better productivity management.
+- **Close All Tabs**: Close all tabs within a saved session with one click.
 
 ### Technology Stack
 - **Next.js** for the frontend
@@ -41,5 +43,5 @@ Sync saved sessions and tabs across devices to ensure you can access them anywhe
 ## Notes & Reminders
 Users can add notes or reminders to each tab in their saved session to enhance productivity.
 
-## Refactored UI
-Improved the UI/UX to make tab session management intuitive and seamless. The session management and search features are more user-friendly and visually organized.
+## Session Cleanup
+Implemented the feature to close all tabs in a saved session at once to better manage your browser's tabs and resources.
