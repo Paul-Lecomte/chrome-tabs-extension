@@ -40,3 +40,6 @@ Sync saved sessions and tabs across devices to ensure you can access them anywhe
 
 ## Notes & Reminders
 Users can add notes or reminders to each tab in their saved session to enhance productivity.
+
+## Refactored UI
+Improved the UI/UX to make tab session management intuitive and seamless. The session management and search features are more user-friendly and visually organized.
