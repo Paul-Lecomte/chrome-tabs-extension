@@ -10,3 +10,8 @@ A Google Chrome extension built with Next.js to enhance productivity by organizi
 
 ## Getting Started
 This project uses Next.js for SSR and Chrome's extension APIs for session management.
+
+### Key Features:
+- **Session Management**: Save your tabs in groups, close all tabs in a session, or restore them anytime.
+- **Tab Search & Filters**: Quickly find tabs from saved sessions or active ones.
+- **Custom Categories**: Label sessions based on user-defined tags for better organization.
