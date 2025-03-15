@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Chrome Session Manager Extension
+
+A Google Chrome extension built with Next.js to enhance productivity by organizing open tabs and browser sessions with custom categories or labels.
+
+## Features
+- Save browser sessions
+- Open saved sessions with one click
+- Search and filter tabs
+- Share sessions with others
+- Sync across devices
+- Add notes and reminders to tabs
+- Close all tabs in a session
 
 ## Getting Started
+This project uses Next.js for SSR and Chrome's extension APIs for session management.
 
-First, run the development server:
+### Key Features:
+- **Session Management**: Save your tabs in groups, close all tabs in a session, or restore them anytime.
+- **Tab Search & Filters**: Quickly find tabs from saved sessions or active ones by searching or filtering by title, URL, or category.
+- **Custom Categories**: Label sessions based on user-defined tags for better organization.
+- **Session Sharing**: Share tab groups with others for collaborative browsing or research.
+- **Sync Across Devices**: Sync saved sessions and tabs across devices for seamless productivity.
+- **Notes & Reminders**: Add notes or reminders to saved tabs for better productivity management.
+- **Close All Tabs**: Close all tabs within a saved session with one click.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Technology Stack
+- **Next.js** for the frontend
+- **Chrome Extensions API** for session management
+- **Chrome Storage API** for persistent session data
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Session Management
+The core feature of the extension allows you to group and manage browser tabs based on categories. You can save tabs into sessions, close all tabs in a session, or restore them later.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Search & Filter Tabs
+Easily find saved sessions or active tabs by searching by title, URL, or filtering by category.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Session Sharing
+Collaboratively share saved tab groups with others for better productivity and research.
 
-## Learn More
+## Sync Across Devices
+Sync saved sessions and tabs across devices to ensure you can access them anywhere.
 
-To learn more about Next.js, take a look at the following resources:
+## Notes & Reminders
+Users can add notes or reminders to each tab in their saved session to enhance productivity.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Session Cleanup
+Implemented the feature to close all tabs in a saved session at once to better manage your browser's tabs and resources.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Bug Fixes & Optimizations
+Fixed minor bugs related to session saving and tab syncing. Improved code performance and streamlined session data handling.
 
-## Deploy on Vercel
+## Final Testing
+Tested all features and ensured full functionality. Ready for deployment!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Final Touches
+Added final documentation, cleaned up code, and performed a final round of optimizations to ensure smooth user experience.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Screenshots
+Here are some screenshots of the extension in action:
+
+- **Main UI**: Shows the list of saved sessions and tabs.
+- **Search & Filter**: A quick search bar to find sessions by title or category.
+- **Notes**: A feature to add notes to each saved tab.
+
+[Scrrenshot here hello]
+
+## Example Usage
+1. Open several tabs for work or research.
+2. Save the session under a custom label (e.g., "Work").
+3. Access the saved session later by opening it with one click.
+4. Add notes or reminders to the session as needed.
+
+## Ready for Deployment
+The extension is now complete, and it's ready for deployment! All features have been thoroughly tested and are fully functional.
