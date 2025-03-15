@@ -1,0 +1,9 @@
+{
+  "manifest_version": 3,
+  "name": "Tab Organizer",
+  "version": "1.0",
+  "description": "Organize your tabs into sessions and categories!",
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "icon.png"
+  },
